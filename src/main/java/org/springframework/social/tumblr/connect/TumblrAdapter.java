@@ -45,8 +45,8 @@ public class TumblrAdapter implements ApiAdapter<Tumblr> {
 		values.setProviderUserId(profile.getName());
 		values.setDisplayName(null);
         // this might not be right if user has a custom domain
-//		values.setProfileUrl("http://"+profile.getName()+".tumblr.com/");
-		values.setProfileUrl(null);
+		values.setProfileUrl("http://"+profile.getName()+".tumblr.com/");
+		//values.setProfileUrl(null);
 		values.setImageUrl(null);
 	}
 
